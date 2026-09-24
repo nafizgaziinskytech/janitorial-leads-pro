@@ -34,7 +34,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
 
 .section-title {
   max-width: 700px;
-  font-size: 38px;
+  font-size: 28px;
   font-weight: 500;
   letter-spacing: 1px;
   line-height: 1.05;
@@ -203,7 +203,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
 }
 /* @media (max-width: 720px) { .hero-title { font-size: 98px; } } */
 @media (min-width: 1024px) { .hero-title { font-size: 78px; } }
-@media (max-width: 512px) { .hero-title { font-size: 53px; } }
+@media (max-width: 512px) { .hero-title { font-size: 50px; } }
 
 .hero-lead {
   max-width: 590px;
