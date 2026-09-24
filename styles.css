@@ -203,13 +203,13 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
 }
 /* @media (max-width: 720px) { .hero-title { font-size: 98px; } } */
 @media (min-width: 1024px) { .hero-title { font-size: 78px; } }
-@media (max-width: 512px) { .hero-title { font-size: 50px; } }
+@media (max-width: 512px) { .hero-title { font-size: 44px; } }
 
 .hero-lead {
   max-width: 590px;
   margin-top: 28px;
-  font-size: 18px;
-  line-height: 2;
+  font-size: 14px;
+  line-height: 1.2;
   color: #51696c;
 }
 
