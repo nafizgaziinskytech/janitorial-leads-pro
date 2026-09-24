@@ -25,7 +25,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
 .eyebrow {
   color: #f1582f;
   font-size: 0.75rem;
-  font-weight: 800;
+  font-weight: 500;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   margin: 0;
@@ -35,7 +35,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
 .section-title {
   max-width: 700px;
   font-size: 38px;
-  font-weight: 800;
+  font-weight: 500;
   letter-spacing: 1px;
   line-height: 1.05;
   margin: 12px 0 0;
@@ -53,7 +53,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
   text-align: center;
   padding: 10px 20px;
   font-size: 11px;
-  font-weight: 800;
+  font-weight: 500;
   letter-spacing: 0.16em;
   text-transform: uppercase;
 }
@@ -180,7 +180,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
   background: #fff;
   padding: 8px 16px;
   font-size: 12px;
-  font-weight: 800;
+  font-weight: 500;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #4b9a3f;
@@ -195,14 +195,15 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
 
 .hero-title {
   max-width: 700px;
-  font-size: 47px;
+  font-size: 97px;
   line-height: 0.98;
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: -0.055em;
   margin: 0;
 }
-@media (min-width: 640px) { .hero-title { font-size: 64px; } }
-@media (min-width: 1024px) { .hero-title { font-size: 76px; } }
+/* @media (max-width: 720px) { .hero-title { font-size: 98px; } } */
+@media (min-width: 1024px) { .hero-title { font-size: 78px; } }
+@media (max-width: 512px) { .hero-title { font-size: 53px; } }
 
 .hero-lead {
   max-width: 590px;
@@ -340,7 +341,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
 }
 .floating-icon svg { width: 22px; height: 22px; }
 .floating-label { font-size: 11px; font-weight: 700; letter-spacing: 0.05em; color: #789092; text-transform: uppercase; margin: 0; }
-.floating-title { margin: 4px 0 0; font-weight: 800; color: #122f35; }
+.floating-title { margin: 4px 0 0; font-weight: 500; color: #122f35; }
 .floating-check {
   margin-left: auto;
   display: grid;
@@ -363,8 +364,8 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
   box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
 @media (min-width: 640px) { .stat-card { display: block; } }
-.stat-number { font-size: 30px; font-weight: 800; letter-spacing: -0.05em; margin: 0; }
-.stat-label { margin: 4px 0 0; font-size: 10px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; }
+.stat-number { font-size: 30px; font-weight: 500; letter-spacing: -0.05em; margin: 0; }
+.stat-label { margin: 4px 0 0; font-size: 10px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; }
 
 /* ===== Services ===== */
 .services { background: #fff; padding: 96px 0; }
@@ -406,7 +407,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
   background: #ffd93d;
   padding: 4px 12px;
   font-size: 10px;
-  font-weight: 800;
+  font-weight: 500;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #1c3a22;
@@ -425,14 +426,14 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
 .offering-label {
   margin: 32px 0 0;
   font-size: 12px;
-  font-weight: 800;
+  font-weight: 500;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: #f1582f;
 }
 .featured .offering-label { color: rgba(255,255,255,0.65); }
 
-.offering-title { margin: 8px 0 0; font-size: 30px; font-weight: 800; letter-spacing: -0.04em; }
+.offering-title { margin: 8px 0 0; font-size: 30px; font-weight: 500; letter-spacing: -0.04em; }
 
 .offering-desc { margin-top: 16px; min-height: 80px; line-height: 1.75; color: #607477; }
 .featured .offering-desc { color: rgba(255,255,255,0.75); }
@@ -458,7 +459,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
   align-items: center;
   gap: 8px;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 500;
   color: #4b9a3f;
 }
 .featured .offering-link { color: #ffd93d; }
@@ -505,7 +506,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
   color: #a9e79a;
 }
 .capability-icon svg { width: 20px; height: 20px; }
-.capability-card h3 { margin: 20px 0 0; font-size: 20px; font-weight: 800; }
+.capability-card h3 { margin: 20px 0 0; font-size: 20px; font-weight: 500; }
 .capability-card p { margin: 8px 0 0; font-size: 14px; line-height: 1.6; color: rgba(255,255,255,0.55); }
 
 /* ===== Why us ===== */
@@ -518,7 +519,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
 .stat-block-yellow { background: #ffd93d; }
 .stat-block-teal { background: #4b9a3f; color: #fff; margin-top: 40px; }
 .stat-block-teal svg { width: 40px; height: 40px; color: #a9e79a; }
-.stat-block-number { font-size: 48px; font-weight: 800; letter-spacing: -0.06em; margin: 0; }
+.stat-block-number { font-size: 48px; font-weight: 500; letter-spacing: -0.06em; margin: 0; }
 .stat-block-label { margin-top: 32px; font-size: 14px; font-weight: 700; line-height: 1.4; }
 .stat-block-teal .stat-block-label { margin-top: 40px; }
 
@@ -564,8 +565,8 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
   color: #a9e79a;
 }
 .stage-icon svg { width: 20px; height: 20px; }
-.stage-eyebrow { margin: 32px 0 0; font-size: 12px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: #a9e79a; }
-.stage-title { margin: 12px 0 0; font-size: 30px; font-weight: 800; letter-spacing: -0.04em; }
+.stage-eyebrow { margin: 32px 0 0; font-size: 12px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: #a9e79a; }
+.stage-title { margin: 12px 0 0; font-size: 30px; font-weight: 500; letter-spacing: -0.04em; }
 .stage-rows { margin-top: 28px; display: flex; flex-direction: column; gap: 12px; }
 .stage-row {
   display: flex;
@@ -578,7 +579,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
   font-size: 14px;
   font-weight: 700;
 }
-.pill { border-radius: 999px; padding: 6px 12px; font-size: 12px; font-weight: 800; color: #1c3a22; }
+.pill { border-radius: 999px; padding: 6px 12px; font-size: 12px; font-weight: 500; color: #1c3a22; }
 .pill-yellow { background: #ffd93d; }
 .pill-teal { background: #a9e79a; }
 .stage-note { margin-top: 24px; font-size: 14px; line-height: 1.6; color: rgba(255,255,255,0.55); }
@@ -598,8 +599,8 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
   gap: 12px;
 }
 @media (min-width: 640px) { .markets-head { flex-direction: row; align-items: center; } }
-.markets-eyebrow { margin: 0; font-size: 12px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: #f1582f; }
-.markets-title { margin: 8px 0 0; font-size: 24px; font-weight: 800; letter-spacing: -0.03em; }
+.markets-eyebrow { margin: 0; font-size: 12px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: #f1582f; }
+.markets-title { margin: 8px 0 0; font-size: 24px; font-weight: 500; letter-spacing: -0.03em; }
 .markets-count {
   display: inline-flex;
   align-items: center;
@@ -609,7 +610,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
   background: #e6f5df;
   padding: 8px 12px;
   font-size: 12px;
-  font-weight: 800;
+  font-weight: 500;
   color: #4b9a3f;
 }
 .dot-teal { width: 8px; height: 8px; border-radius: 50%; background: #4b9a3f; }
@@ -646,7 +647,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
   color: #f1582f;
 }
 .not-supported-icon svg { width: 20px; height: 20px; }
-.not-supported-title { margin: 0; font-size: 14px; font-weight: 800; color: #7c3821; }
+.not-supported-title { margin: 0; font-size: 14px; font-weight: 500; color: #7c3821; }
 .not-supported-text { margin: 4px 0 0; font-size: 14px; color: #8a6253; }
 
 .service-area-footnote {
@@ -676,8 +677,8 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
   width: 224px; height: 224px; border-radius: 50%;
   border: 42px solid rgba(255,255,255,0.1);
 }
-.contact-eyebrow { position: relative; margin: 0; font-size: 12px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; }
-.contact-title { position: relative; margin: 16px 0 0; font-size: 36px; line-height: 1.15; font-weight: 800; letter-spacing: -0.05em; }
+.contact-eyebrow { position: relative; margin: 0; font-size: 12px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; }
+.contact-title { position: relative; margin: 16px 0 0; font-size: 36px; line-height: 1.15; font-weight: 500; letter-spacing: -0.05em; }
 @media (min-width: 640px) { .contact-title { font-size: 48px; } }
 .contact-lead { position: relative; margin-top: 20px; max-width: 400px; line-height: 1.75; color: rgba(255,255,255,0.8); }
 
@@ -697,7 +698,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
   gap: 8px;
   color: #244348;
   font-size: 12px;
-  font-weight: 800;
+  font-weight: 500;
 }
 .form-label-wide { grid-column: 1 / -1; }
 
@@ -729,7 +730,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
   background: #16321b;
   padding: 16px 24px;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 500;
   color: #fff;
   transition: background 160ms;
 }
@@ -761,9 +762,9 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
   color: #4b9a3f;
 }
 .success-icon svg { width: 32px; height: 32px; }
-.form-success h3 { margin: 20px 0 0; font-size: 24px; font-weight: 800; }
+.form-success h3 { margin: 20px 0 0; font-size: 24px; font-weight: 500; }
 .form-success p { margin: 8px 0 0; color: #607477; }
-.success-contact { font-weight: 800; color: #122f35; }
+.success-contact { font-weight: 500; color: #122f35; }
 
 /* ===== Footer ===== */
 .site-footer { border-top: 1px solid rgba(18, 47, 53, 0.1); background: #f7f8f6; }
@@ -774,7 +775,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
   padding: 40px 20px;
 }
 @media (min-width: 768px) { .footer-inner { flex-direction: row; align-items: center; justify-content: space-between; } }
-.footer-logo { display: flex; align-items: center; gap: 8px; font-weight: 800; }
+.footer-logo { display: flex; align-items: center; gap: 8px; font-weight: 500; }
 .footer-text { font-size: 12px; color: #718487; margin: 0; }
 .footer-copy { font-size: 12px; font-weight: 600; color: #718487; margin: 0; }
 
@@ -792,8 +793,8 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
   transition: transform 300ms, box-shadow 300ms, border-color 300ms;
 }
 .package-card:hover { transform: translateY(-8px); border-color: rgba(75, 154, 63, 0.4); box-shadow: 0 20px 40px rgba(0,0,0,0.08); }
-.package-name { margin: 0; font-size: 14px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: #f1582f; }
-.package-count { margin: 12px 0 0; font-size: 56px; font-weight: 800; letter-spacing: -0.06em; line-height: 1; }
+.package-name { margin: 0; font-size: 14px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: #f1582f; }
+.package-count { margin: 12px 0 0; font-size: 56px; font-weight: 500; letter-spacing: -0.06em; line-height: 1; }
 .package-count span { display: block; margin-top: 6px; font-size: 14px; font-weight: 700; letter-spacing: 0; color: #607477; }
 .package-features {
   margin-top: 24px;
@@ -816,7 +817,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
   border: 1px solid #f1582f;
   padding: 14px 24px;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 500;
   color: #f1582f;
   transition: background 160ms, color 160ms;
 }
@@ -838,9 +839,9 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
   padding: 32px;
 }
 .testimonial-card blockquote { margin: 0; font-size: 17px; line-height: 1.7; color: #244348; font-style: italic; }
-.testimonial-card blockquote::before { content: "\201C"; display: block; font-size: 64px; line-height: 0.6; font-style: normal; font-weight: 800; color: #ffd93d; margin-bottom: 12px; }
+.testimonial-card blockquote::before { content: "\201C"; display: block; font-size: 64px; line-height: 0.6; font-style: normal; font-weight: 500; color: #ffd93d; margin-bottom: 12px; }
 .testimonial-card figcaption { display: flex; flex-direction: column; gap: 2px; }
-.testimonial-card figcaption strong { font-weight: 800; }
+.testimonial-card figcaption strong { font-weight: 500; }
 .testimonial-card figcaption span { font-size: 12px; color: #718487; }
 
 /* ===== FAQ ===== */
@@ -884,7 +885,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
   background: rgba(255,255,255,0.15);
   padding: 14px 22px;
   font-size: 18px;
-  font-weight: 800;
+  font-weight: 500;
   color: #fff;
   transition: background 160ms;
 }
@@ -896,9 +897,9 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
 @media (min-width: 768px) { .footer-top { grid-template-columns: 1.6fr 1fr 1fr 1fr; } }
 .footer-brand { display: flex; flex-direction: column; gap: 16px; align-items: flex-start; }
 .footer-brand .footer-text { max-width: 320px; line-height: 1.6; }
-.footer-call { font-size: 14px; font-weight: 800; color: #f1582f; }
+.footer-call { font-size: 14px; font-weight: 500; color: #f1582f; }
 .footer-col { display: flex; flex-direction: column; gap: 10px; font-size: 14px; }
-.footer-col h4 { margin: 0 0 6px; font-size: 14px; font-weight: 800; }
+.footer-col h4 { margin: 0 0 6px; font-size: 14px; font-weight: 500; }
 .footer-col a { color: #51696c; transition: color 160ms; }
 .footer-col a:hover { color: #f1582f; }
 .footer-bottom { border-top: 1px solid rgba(18, 47, 53, 0.1); padding: 24px 20px 32px; text-align: center; }
