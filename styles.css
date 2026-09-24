@@ -34,9 +34,9 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round
 
 .section-title {
   max-width: 700px;
-  font-size: clamp(2.3rem, 4vw, 4rem);
+  font-size: 38px;
   font-weight: 800;
-  letter-spacing: -0.055em;
+  letter-spacing: 1px;
   line-height: 1.05;
   margin: 12px 0 0;
 }
